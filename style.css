@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.con-div{
+    width: 98vw !important;
+    height: fit-content;
+    background-color: lightblue;
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+img{
+    width: 70%;
+}
+.item{
+    background-color: lightskyblue;
+    text-align: center;
+    width: 20%;
+    height: 20%;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 15 px;
+    border: 2px solid black;
+}
+.btn-danger{
+    display: none !important;
+}
